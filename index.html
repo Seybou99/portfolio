@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
     <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
 </head>
-<body class="dark">
+<body>
     <!-- Main container start-->
     <div class="main-container ">
         <!--Aside start-->
@@ -28,18 +28,18 @@
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i>Accueil</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>A propos</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Projets</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+                <li><a href="#acc" class="active"><i class="fa fa-home"></i>Accueil</a></li>
+                <li><a href="#prop"><i class="fa fa-user"></i>A propos</a></li>
+                <li><a href="#projet"><i class="fa fa-list"></i>Projets</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
         </div>
         <!--Aside end-->
         <!-- Main content start-->
         <div class="main-content">
             <!--Home section start-->
-            <section class="home section ">
+            <section class="home section " id="acc">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
@@ -57,7 +57,7 @@
             <!--Home section end-->
             <!--About section start-->
             <section class="about section ">
-                <div class="container">
+                <div class="container" id="prop">
                     <div class="row">
                         <div class="section-title padd-15">
                             <h2>About Me</h2>
@@ -67,7 +67,7 @@
                         <div class="about-content padd-15">
                             <div class="row">
                                 <div class="about-text padd-15">
-                                    <h3 ">I'm Doumbia Seybou Diokolo <span >Développeur Web</span></h3>
+                                    <h3 >I'm Doumbia Seybou Diokolo <span >Développeur Web</span></h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         Amet commodi vero odio, laboriosam sit alias animi, 
                                         modi fugiat necessitatibus, molestias ab. 
@@ -347,8 +347,8 @@
                 </div>
             </section>
             <!--service portfolio-->
-            <section class="portfolio section">
-                <div class="container">
+            <section class="portfolio section" >
+                <div class="container"id="portfolio">
                     <div class="row">
                         <div class="section-title padd-15">
                             <h2>Portfolio</h2>
@@ -420,7 +420,7 @@
             <!--service section fin-->
             <!--contact section debut-->
             <section class="contact section">
-                <div class="container">
+                <div class="container" id="contact">
                     <div class="row">
                         <div class="section-title padd-15">
                             <h2>Contact</h2>
@@ -504,9 +504,9 @@
         <div class="style-switcher-toggler s-icon">
             <i class="fas fa-cog fa-spin"></i>
         </div>
-        <div class="day-night s-icon">
-            <i class="fas "></i>
-        </div>
+        <!-- <div class="day-night s-icon">
+            <i class="fas"></i>
+        </div> -->
         <h4>Thème Colors</h4>
         <div class="colors">
             <span class="color-1" onclick="setActiveStyle('color-1')"></span>
@@ -518,7 +518,7 @@
     </div>
      <!-- style switcher end -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
-     <script> src="script.js"</script>
-     <script>src="style-switcher.js"</script>
+     <script src="script.js"></script>
+     <script src="style-switcher.js"></script>
 </body>
 </html>
